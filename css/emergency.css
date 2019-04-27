@@ -1,0 +1,38 @@
+body,html{
+    margin: 0px;
+    padding: 0px;
+}
+.jumbotron{
+    background: white;
+}
+.ser{
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    color: white;
+    background-color: orangered;
+}
+.ser1{
+    margin-top: 50px;
+}
+.ser2{
+    margin-top: 50px;
+    margin-left: 50px;
+}
+.line{
+    width: 300px;
+    height: 1px;
+    background: orangered;
+    position: relative;
+    left: 20px;
+    top:15px;
+}
+.text{
+    margin-left: 50px;
+}
+.text2{
+    margin-left: 100px;
+}
+.main_img{
+    margin-top:80px ;
+}

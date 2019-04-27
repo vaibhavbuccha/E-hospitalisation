@@ -1,0 +1,351 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.top-nav{
+    position: static;
+}
+.s1{
+    color: orangered;
+    font-size: 30px;
+    margin-left: 40px;
+}
+.s2{
+    font-size: 30px;    
+}
+.home{
+    margin-left: 330px;
+    font-size: 20px; 
+}
+.dropbtn {
+    border: none;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    border-radius: 20px;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: orangered;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color: orangered; color: white;}
+  
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  .dropdown:hover .dropbtn {background-color: whitesmoke;}
+.nav-tag{
+    margin-left:30px;
+    font-size: 20px;
+}
+.nav-nam{
+    color: orangered;
+}
+.nav-nam:hover{
+    text-decoration: none;
+    color: black;
+    border: 1px solid orangered;
+    padding: 2px;
+    border-radius: 10px;
+}
+.main{
+    overflow: scroll;
+    width: 100%;
+    height: 600px;
+}
+#home{
+    background-size: cover;
+    background-color: whitesmoke;
+    width: 100%;
+    height: 500px;
+    /*
+    animation-name: bg-change;
+    animation-duration: 5s;
+    animation-direction: alternate-reverse;
+    animation-iteration-count: infinite;
+    */
+}
+
+.home-img{
+    display: cover;
+    width: 100%;
+    height: 700px;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    /*
+    animation-name: bg-change;
+    animation-duration: 5s;
+    animation-direction: alternate-reverse;
+    animation-iteration-count: infinite;
+    */
+}
+/*
+@-webkit-keyframes bg-change{
+    from{background-color:whitesmoke; }
+    to{background-color:orangered;}
+}
+@keyframes bg-change{
+    from{background-color:whitesmoke; }
+    to{background-color:orangered;}
+}*/
+.img-txt{
+    width: 900px;
+    height: 450px;
+    margin-top: 30px;
+    background-color: rgba(0, 0, 0, 0.507);
+    border-radius: 20px;
+    position: relative;
+    top: -650px;
+    left: 230px;
+}
+.div1{
+    background-color: rgba(0, 0, 0, 0.507);
+    width: 449px;
+    height: 450px;
+    border-radius: 20px;
+}
+.div1:hover{
+    background: orangered;
+}
+.div2{
+    background-color: rgba(0, 0, 0, 0.507);
+    width: 449px;
+    height: 450px;
+    border-radius: 20px;
+}
+.div2:hover{
+    background: rgb(247, 75, 13);
+}
+.d2{
+    color: white;   
+    width: 200px;
+    height: 40px;
+    font-size: 20px;
+    border-radius: 10px;
+    background: rgb(247, 71, 71);
+}
+.div3{
+    width: 1px;
+    height: 450px;
+    background: orangered;
+}
+.inp1{
+    position: relative;
+}
+.img-txt:hover{
+    
+}
+.sp1{
+    color: orangered;
+    font-size: 60px;
+}
+.sp2{
+    color: white;
+    font-size: 60px;
+    
+}
+.tag-line{
+    color: white;
+    font-size: 30px;
+}
+#services{
+    width: 100%;
+    height: 600px;
+}
+.sbox{
+    position: relative;
+    background-color: white;
+    margin-left: 300px;
+    margin-top: 130px;
+    padding: 30px;
+    width: 800px;
+    height: 150px;
+    border-radius: 20px;
+    font-size: 40px;
+}
+.sbox:hover{
+    color: white;
+    background-color:gray;
+    border: 1px solid orangered;
+}
+.under-line{
+    background: orangered;
+    width: 50px;
+    height: 2px;
+}
+#scontent{
+    background-color:white;
+    width: 400px;
+    height: 400px;
+    padding: 30px;
+}
+#scontent:hover{
+    background: orangered;
+    color: white;
+}
+#vline{
+    width: 2px;
+    height: 400px;
+    background: orangered;
+}
+#doc{
+    width: 100%;
+    height: 600px;
+}
+.obox
+{
+    position: relative;
+    background-color: white;
+    margin-left: 300px;
+    margin-top: 130px;
+    padding: 30px;
+    width: 800px;
+    height: 150px;
+    border-radius: 20px;
+    font-size: 40px;
+}
+.obox:hover{
+    border: 1px solid orangered;
+    background: grey;
+    color: white;
+}
+.doc-img{
+    width: 250px;
+    height: 300px;
+    border-radius: 50px;
+    border: 1px solid white;
+}
+#abt{
+    width: 100%;
+    height: 600px;
+    background-color: grey;
+}
+#abtcon{
+    margin-top: 50px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+#abt:hover{
+    /*background: orangered;*/
+    background-image: url("https://image.slidesharecdn.com/slidesharehospitals-160915224804/95/10-fast-facts-about-us-hospitals-5-638.jpg?cb=1474297202");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    border: 1px solid orangered;
+}
+.abox{
+    font-size: 40px;
+    width: 100%;
+    height: 100px;
+    background: gray;
+}
+#contact{
+    width: 100%;
+    height: 600px;
+    background-color:white;
+}/*
+.contact-img{
+    width: 100%;
+    height: 500px;
+}
+.contact-txt{
+    font-size: 70px;
+    position: relative;
+    top: -400px;
+}
+.contact-txt:hover{
+    background: powderblue;
+}
+.contact-img:hover{
+    background: powderblue;
+}
+.img-con-ani:hover{
+    background: powderblue;
+    color: white;
+}
+*/
+.img-con-ani{
+    background-image: url("http://www.hshs.org/St.NicholasHospital/media/HSHS-Images/High-Quality-Care.png");
+    width: 100%;
+    height: 600px;
+    background-size: cover;
+}
+.contact-txt{
+    font-size: 70px;
+    padding-top: 70px;
+    padding-bottom: 30%;
+}
+.contact-txt:hover{
+    background-color: rgba(0, 139, 139, 0.39);
+    color: white;
+}
+.contact-form{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.863);
+    width: 300px;
+    height: 350px;
+    position: relative;
+    top: -350px;
+    padding: 20px;
+}
+.input-con{
+    background-color: black;
+    border: 1px solid white;
+    color: white;
+    text-align: center;
+    width: 200px;
+}
+.input-text{
+    width: 200px;
+    height: 70px;
+    background-color: black;
+    border: 1px solid white;
+    color: white;
+    text-align: center;
+}
+.contact-form:hover{
+    background: black;
+    border: 2px solid powderblue;
+}
+.input-text:hover{
+    background: rgba(0, 0, 0, 0.178);
+    border: 2px solid powderblue;
+}
+.input-con:hover{
+    border: 2px solid powderblue;
+    background: rgba(0, 0, 0, 0.062);
+}
+.contact-form2{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.863);
+    width: 600px;
+    height: 350px;
+    position: relative;
+    top: -700px;
+    left: 750px;
+    padding: 20px;
+}
+.contact-form2:hover{
+    background: black;
+    border: 2px solid powderblue;
+}
+.modal-temp{
+    width: 100%;
+    height: 200px;
+    background-color: rgb(15, 24, 36);
+    color: rgba(255, 255, 255, 0.979);
+}

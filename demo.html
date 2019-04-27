@@ -1,0 +1,190 @@
+<html>
+    <head>
+        <style>
+           /* body{
+        margin: 0;
+        padding: 0;	
+        background: #000;
+    }
+    .shadow{
+        position: relative;
+        margin: 200px auto 0;
+        width: 400px;
+        height: 250px;
+        background: linear-gradient(0deg,#000,#262626)
+    }
+    .shadow:before,
+    .shadow:after{
+        content: '';
+        position: absolute;
+        top: -2px;
+        left: -2px;
+        background: linear-gradient(45deg,#fb0094,#0000ff,#00ff00,#ffff00,#ff0000,#fb0094,#0000ff,#00ff00,#ffff00,#ff0000);
+        background-size: 400%;
+        width: calc(100% + 4px);
+        height: calc(100% + 4px);
+        z-index: -1;
+        animation: animate 20s linear infinite;
+
+    }
+    .shadow:after{
+        filter: blur(40px);
+    }
+    @keyframes animate{
+        0%{
+            background-position: 0 0;
+        }
+        50%{
+            background-position: 300% 0;
+        }
+       100%{
+            background-position: 0 0;
+        }
+        
+    }*/
+    *{
+        
+        margin: 0px;
+        padding: 0px;
+        background: #000;
+    }
+    .shadow{
+        position: absolute;
+        margin-left: 30px;
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+        background: linear-gradient(0deg,rgb(77, 207, 224),powderblue);
+        animation: animate 4s infinite;
+    }
+    .shadow2{
+        top: -70px;
+        position: absolute;
+        margin-left: 20px;
+        width: 15px;
+        height: 15px;
+        border-radius: 50%;
+        z-index: -1;
+        background: linear-gradient(0deg,rgb(77, 207, 224),powderblue);
+        animation: animate1 5s infinite;
+    }
+    .shadow3{
+        top: -140px;
+        position: relative;
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        z-index: -1;
+        background: linear-gradient(0deg,rgb(77, 207, 224),powderblue);
+        animation: animate2 6s infinite;
+    }
+    .shadow4{
+        top:-210px;
+        position: relative;
+        width: 5px;
+        height: 5px;
+        border-radius: 50%;
+        z-index: -1;
+        background: linear-gradient(0deg,rgb(77, 207, 224),powderblue);
+        animation: animate3 7s infinite;
+    }
+    /*
+    @keyframes animate{
+        0%{
+            left: 0px;
+        }
+        25%{
+            left: 50px;
+        }
+        50%
+        {
+            left: 80px;
+        }
+        75%{
+            left: 100px;
+        }
+        100%{
+            left: 110px;
+        }
+    }
+    @keyframes animate1{
+        0%{
+            left: 0px;
+        }
+        25%{
+            left: 40px;
+        }
+        50%
+        {
+            left: 70px;
+        }
+        75%{
+            left: 90px;
+        }
+        100%{
+            left: 100px;
+        }
+    }
+    @keyframes animate2{
+        0%{
+            left: 0px;
+        }
+        25%{
+            left: 30px;
+        }
+        50%
+        {
+            left: 60px;
+        }
+        75%{
+            left: 80px;
+        }
+        100%{
+            left: 90px;
+        }
+    }
+    @keyframes animate3{
+        0%{
+            left: 0px;
+        }
+        25%{
+            left: 20px;
+        }
+        50%
+        {
+            left: 50px;
+        }
+        75%{
+            left: 70px;
+        }
+        100%{
+            left: 80px;
+        }
+    }*/ 
+    /*
+    @keyframes animate{
+        0%{
+            left: 0px; top: 0px;
+        }
+        25%{
+           left: 200px; top: 0px;
+        }
+        50%{
+            left: 200px; top: 200px;
+        }
+        75%{
+            left:0px; top: 200px;
+        }
+        100%{
+            left: 0px; top: 0px;
+        }
+    }
+    */
+        </style>
+    </head>
+    <body>
+    
+        <div class="shadow"></div><div class="shadow2"></div><div class="shadow3"></div><div class="shadow4"></div>
+    </body>
+</html>
+           

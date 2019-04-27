@@ -1,0 +1,93 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.phone{
+    margin: 10px 0px;
+ }
+ .outer{
+     width: 1100px;
+     height: 580px;
+     border: 1px solid gray;
+     border-radius: 20px;
+     background: black;
+ }
+ .inner{
+     margin-top: 28px;
+     width: 1050px;
+     height: 520px;
+     border: 1px solid gray;
+     border-radius: 2px;
+     background: white;
+ }
+ .stand{
+     margin-top: -1px;
+     width: 100px;
+     height: 30px;
+     background: black;
+ }
+ .bottom{
+     width: 300px;
+     height: 20px;
+     background: black;
+     border-radius: 30px;
+ }
+ .img{
+     background-size: cover;
+     width: 1050px;
+     height: 520px;
+ }
+.login-box{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.863);
+    width: 300px;
+    height: 350px;
+    position: relative;
+    top: -420px;
+    padding: 20px;
+    padding-top: 40px;
+}
+
+.input-con{
+    background-color: black;
+    border: 1px solid white;
+    color: white;
+    text-align: center;
+    width: 200px;
+}
+.input-text{
+    width: 200px;
+    height: 80px;
+    background-color: black;
+    border: 1px solid white;
+    color: white;
+    text-align: center;
+}
+.contact-form:hover{
+    background: black;
+    border: 2px solid powderblue;
+}
+.input-text:hover{
+    background: rgba(0, 0, 0, 0.178);
+    border: 2px solid powderblue;
+}
+.input-con:hover{
+    border: 2px solid powderblue;
+    background: rgba(0, 0, 0, 0.062);
+}
+.s:hover{
+    border: 1px solid orangered;
+    padding: 2px;
+}
+.s1{
+    color: orangered;
+    font-size: 20px;
+}
+.s2{
+    color: white;
+    font-size: 20px;
+}
+.btn{
+    width: 150px;
+    height: 30px;
+}

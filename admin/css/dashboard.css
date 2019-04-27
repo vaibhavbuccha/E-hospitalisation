@@ -1,0 +1,133 @@
+html {
+    overflow: scroll;
+    overflow-x: hidden;
+}
+::-webkit-scrollbar {
+    width: 0px;  /* Remove scrollbar space */
+    background: transparent;  /* Optional: just make scrollbar invisible */
+}
+/* Optional: show position indicator in red */
+::-webkit-scrollbar-thumb {
+    background: #FF0000;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.top-nav{
+    position: static;
+}
+.s1{
+    color: orangered;
+    font-size: 30px;
+    margin-left: 40px;
+}
+.s2{
+    font-size: 30px;    
+}
+.home{
+    margin-left: 330px;
+    font-size: 20px; 
+}
+.dropbtn {
+    border: none;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    border-radius: 20px;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: orangered;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color: orangered; color: white;}
+  
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  .dropdown:hover .dropbtn {background-color: whitesmoke;}
+.nav-tag{
+    margin-left:30px;
+    font-size: 20px;
+}
+.nav-nam{
+    color: orangered;
+}
+.nav-nam:hover{
+    text-decoration: none;
+    color: black;
+    border: 1px solid orangered;
+    padding: 2px;
+    border-radius: 10px;
+}
+
+.box{
+    border: 1px solid white;
+    width: 250px;
+    height: 200px;
+    border-radius: 10px;
+    color: white;
+}
+td{
+    padding: 10px;
+}
+.clr{
+    background: rgb(28, 173, 28);
+}
+.clr2{
+    background: rgb(156, 28, 173);
+}
+.clr3{
+    background: rgb(173, 57, 28);
+}
+.clr4{
+    background: rgb(215, 218, 43);
+}
+.clr5{
+    background: rgb(78, 22, 209);
+}
+.clr6{
+    background: rgb(28, 173, 113);
+}
+p{
+    font-size: 30px;
+    padding: 20px;
+}
+.fa-desktop{
+    font-size: 60px;
+    padding-left: 160px;
+}
+.fa-user{
+    font-size: 60px;
+    padding-left: 160px;
+}
+.fa-database{
+    font-size: 60px;
+    padding-left: 160px;
+}
+.fa-blog{
+    font-size: 60px;
+    padding-left: 160px;
+}
+.fa-accusoft,.fa-file-text{
+    font-size: 60px;
+    padding-left: 160px;
+}
+.log{
+    position: relative;
+    left: 950px;
+}
